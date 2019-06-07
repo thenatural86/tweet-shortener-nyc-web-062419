@@ -2,7 +2,7 @@
 
 def dictionary 
   words = {
-    :hello => "hi",
+    "hello" => "hi",
     :to => "2",
     :two => "2",
     :too => "2",
