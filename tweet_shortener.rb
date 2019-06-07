@@ -39,6 +39,6 @@ def selective_tweet_shortener(tweet)
   if tweet.length > 140 
     bulk_tweet_shortener
   else 
-    puts tweet
+    tweet
   end 
 end
