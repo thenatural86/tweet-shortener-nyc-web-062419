@@ -19,7 +19,7 @@ def word_substituter(tweet)
   tweet.split(", ").each do |k,v|
    dictionary.keys.each do |word|
       if word == k 
-        tweet[k] == tweet[v]
+        tweet[k] == tweet[word]
       end 
     end.join(" ")
   end
