@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweet)
   tweet = tweet.split(" ")
-    words.collect do |word|
+    tweet.collect do |word|
       dictionary.collect do |key, value|
       if word == key
         word.replace(value)
